@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if language == 'ru' %}
+    <h1>Мое резюме</h1>
+    
+    <h2>Личная информация</h2>
+    <p><strong>Имя:</strong> Георгий Бабинский</p>
+    <p><strong>Город:</strong> Москва</p>
+
+    <h2>Образование</h2>
+    <p>НИУ ВШЭ, ФКН ПМИ (2023 - 2027 гг.)</p>
+
+    <h2>Опыт работы</h2>
+    <p>... будет пополняться ...</p>
+
+    <h2>Навыки</h2>
+    <ul>
+        <li>Python</li>
+        <li>Flask</li>
+        <li>HTML/CSS</li>
+        <li>C/C++</li>
+        <li>Assembler</li>
+        <li>Мат.анализ</li>
+    </ul>
+
+    <h2>Контакты</h2>
+    <p>Email: gobabinskii@edu.hse.ru</p>
+
+{% else %}
+    <h1>My Resume</h1>
+
+    <h2>Personal Information</h2>
+    <p><strong>Name:</strong> Georgii Babinskii</p>
+    <p><strong>City:</strong> Moscow</p>
+
+    <h2>Education</h2>
+    <p>HSE, FCS AMI (2023 - 2027)</p>
+
+    <h2>Work Experience</h2>
+    <p>... In progress ...</p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Flask</li>
+        <li>HTML/CSS</li>
+        <li>C/C++</li>
+        <li>Assembler</li>
+        <li>Math analysis</li>
+    </ul>
+
+    <h2>Contacts</h2>
+    <p>Email: gobabinskii@edu.hse.ru</p>
+
+{% endif %}
+
+{% endblock %}
+
