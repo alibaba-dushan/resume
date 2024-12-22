@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+header {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+main {
+  padding: 20px;
+}
+
+body.dark header {
+  background-color: #444444;
+}
+
+body.dark header a {
+  color: #ffd700;
+}
+
+  
